@@ -9,6 +9,10 @@
   "repository": "nju33/react-masonry",
   "author": "nju33 <nju33.ki@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "masonry"
+  ],
   "files": [
     "dist"
   ],
