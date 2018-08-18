@@ -1,0 +1,4 @@
+
+{
+  "extends": ["@geekcojp/tslint-config"]
+}
