@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import styled from 'styled-components';
 import randomcolor from 'randomcolor';
-import {Masonry} from '../dist';
+import {Masonry} from '..';
 
 const div = document.createElement('div');
 document.body.appendChild(div);

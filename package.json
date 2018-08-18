@@ -2,8 +2,9 @@
   "name": "@nju33/react-masonry",
   "description": "A masonry layout library where used React and Flexbox",
   "version": "1.0.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
   "source": "./src/index.ts",
   "repository": "nju33/react-masonry",
   "author": "nju33 <nju33.ki@gmail.com>",
@@ -14,9 +15,11 @@
   "scripts": {
     "prepare": "yarn build",
     "dev": "webpack-dev-server",
-    "build:demo": "webpack",
-    "build:src": "tsc -P tsconfig.build.json",
-    "build": "yarn build:src && yarn build:demo"
+    "build.demo": "webpack",
+    "build.cjs": "tsc -P tsconfig.build.cjs.json",
+    "build.esm": "tsc -P tsconfig.build.esm.json",
+    "build.types": "tsc -P tsconfig.build.types.json --emitDeclarationOnly",
+    "build": "yarn build.cjs && yarn build.esm && yarn build.types && yarn build.demo"
   },
   "publishConfig": {
     "access": "public"
