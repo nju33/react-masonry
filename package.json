@@ -1,5 +1,6 @@
 {
   "name": "@nju33/react-masonry",
+  "description": "A masonry layout library where used React and Flexbox",
   "version": "0.1.14",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
