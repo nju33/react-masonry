@@ -37,7 +37,7 @@
     "@geekcojp/prettier-config": "0.3.0",
     "@geekcojp/tslint-config": "0.2.1",
     "@types/html-webpack-plugin": "3.2.0",
-    "@types/node": "10.7.1",
+    "@types/node": "10.12.0",
     "@types/randomcolor": "0.5.0",
     "@types/react": "16.4.11",
     "@types/react-dom": "16.0.7",
