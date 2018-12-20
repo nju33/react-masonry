@@ -1,4 +1,8 @@
-## react-masonry
+[nju33/c8s](https://github.com/nju33/c8s) monorepo に移動・管理
+
+~react-masonry~
+
+<details>
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 [![@nju33/react-masonry](https://img.shields.io/npm/v/@nju33/react-masonry.svg)](https://www.npmjs.com/package/@nju33/react-masonry)
@@ -42,3 +46,4 @@ render(
   document.body
 )
 ```
+</details>
